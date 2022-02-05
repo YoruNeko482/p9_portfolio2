@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+    <title>Portfoli</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            font-size: 3em;
+            font-family: 'Seaweed Script', cursive;
+            color: white;
+            text-align: center;
+        }
+        main h4{
+            font-size: 2em;
+            font-family: 'Oswald', sans-serif;
+            
+        }
+        body img{
+            width: 400px;
+            height: 300px;
+        }
+        main p{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 200;
+            color: white;
+        }
+        .uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve{
+            display: flex;
+        }
+        .img_uno, .img_dos, .img_tres, .img_cuatro, .img_cinco, .img_seis, .img_siete, .img_ocho, .img_nueve{
+            background-image: url('../img/remiau.jpg');
+            background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          border-radius: 80%;
+            width: 400px;
+            height: 400px;
+            margin-right: 3cm;
+            margin-left: 4cm;
+            margin-top: 1cm;
+            margin-bottom: 1cm;
+        }
+        .img_uno:hover, .img_dos:hover, .img_tres:hover, .img_cuatro:hover, .img_cinco:hover, .img_seis:hover, .img_siete:hover, .img_ocho:hover, .img_nueve:hover{
+            /*background-attachment: fixed;*/
+            background-size: cover;
+            background-position: center;
+            background-color: none;
+            box-shadow: 0px 0px 8px rgb(116, 9, 126);
+        }
+        .img_uno:hover{
+            background-image: url('../img/p1_.PNG');
+        }
+        .img_dos:hover{
+            background-image: url('../img/p2_.PNG');
+        }
+        .img_tres:hover{
+            background-image: url('../img/p3_.PNG');
+        }
+        .img_cuatro:hover{
+            background-image: url('../img/p4_.PNG');
+        }
+        .img_cinco:hover{
+            background-image: url('../img/p5_.PNG');
+        }
+        .img_seis:hover{
+            background-image: url('../img/p6_.PNG');
+        }
+        .img_siete:hover{
+            background-image: url('../img/p7_.PNG');
+        }
+        .img_ocho:hover{
+            background-image: url('../img/p8_.PNG');
+        }
+        .img_nueve:hover{
+            background-image: url('../img/p_9.PNG');
+        }
+        
+
+        
+        .uno_text, .dos_text, .tres_text, .cuatro_text, .cinco_text, .seis_text, .siete_text, .ocho_text, .nueve_text{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 0.5cm;
+            padding-right: 4cm;
+        }
+      
+        .line_one{
+            width: 35%;
+            height: 0.1cm;
+            
+        }
+        
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .container h3{
+            font-family: 'Supermercado One', cursive;
+            color: white;
+            font-size: 2em;
+        }
+        @media (max-width: 1024px){
+            .img_uno, .img_dos, .img_tres, .img_cuatro, .img_cinco, .img_seis, .img_siete, .img_ocho, .img_nueve{
+                margin-left: 2em;
+                margin-right: 3em;
+            }
+            .uno_text, .dos_text, .tres_text, .cuatro_text, .cinco_text, .seis_text, .siete_text, .ocho_text, .nueve_text{
+                padding-right: 2em;
+            }
+        }
+        @media (max-width: 800px){
+            .uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .uno_text, .dos_text, .tres_text, .cuatro_text, .cinco_text, .seis_text, .siete_text, .ocho_text, .nueve_text{
+                padding-right: 3em;
+                padding-left: 3em;
+            }
+            main h4{
+                font-size: 1.5em;
+            }
+            p{
+                font-weight: 100;
+            }
+            
+
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1>Portfolio YoruNeko</h1>
+        <hr class="line_one">
+    <div class="uno">
+        <a href="https://yoruneko482.github.io/p1_llocweb_2gp/"> <div class="img_uno">
+        </div> </a>
+        <div class="uno_text">
+        <h4><strong>Hello World!</strong></h4>
+        <p>Este "trabajo" se realizó el primer día de clase cuando los conocimientos adquiridos eran mínimos. En este ejercicio descubrimos el uso y la aplicación del código HTML hNº (1-6). </p>
+        </div>
+    </div>
+    <hr>
+    <div class="dos">
+        <a href="https://yoruneko482.github.io/p2_img_2gp/"><div class="img_dos">
+        </div> </a>
+        <div class="dos_text">
+            <h4><strong>Vínculos</strong></h4>
+            <p>Para nuestro segundo trabajo realizamos una práctica con la finalidad de aprender a usar los vínculos y conducir a la persona virtual de un sitio web a otro vinculado mediante el código a. </p>
+        </div>
+    </div>
+    <hr>
+    <div class="tres">
+        <a href="https://yoruneko482.github.io/p3_img_video_audio/"><div class="img_tres">
+           
+        </div> </a>
+        <div class="tres_text">
+            <h4><strong>Usos Media</strong></h4>
+            <p>Usando el anterior ejercicio ampliamos este añadiendole diversos formatos de visualización como un vídeo mp4, un link a la plataforma de Youtube y un audio mp3. Usamos por primera vez los colores en los backgrounds y códigos para lograr que ciertos formatos se reprodujeran de forma automática en cuanto el visitante abre la página web. 
+            De la misma forma añadimos color a la tipografía y adornos como el subrayado.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="cuatro">
+        <a href="https://yoruneko482.github.io/p4_gallery/"><div class="img_cuatro">
+        
+        </div> </a>
+        <div class="cuatro_text">
+            <h4><strong>Biblioteca</strong></h4>
+            <p>Empezamos con el uso del "display:flex;", usando esta característica del código HTML para realizar una biblioteca con diversos apartados donde podemos observar diversos géneros de manga (estilo de dibujo oriental). Hicimos uso de links para crear un camino hacia diferentes redes sociales, vinculamos los diversos apartados de este proyecto en un sencillo índice al inicio de la página y usamos el "flex-wrap" para mejorar la minimación y maximación de nuestra página. </p>
+        </div>
+    </div>
+    <hr>
+    <div class="cinco">
+        <a href="https://yoruneko482.github.io/p5_grid/"><div class="img_cinco">
+        
+        </div></a>
+        <div class="cinco_text">
+            <h4><strong>Grid Face</strong></h4>
+            <p>Esta sencilla actividad se realizó con el objetiv de aprender a ejecutar de manera eficaz el aspecto de grid, característica que nos permite establecer una cuadrícula en la cual situar los elementos que requiramos. Además del uso del grid también se usó el aspecto del css @media con el cual al establecer diferentes medidas lograbamos ejecutar diversos cambios cuando el tamaño del sitio web se reducía o se agrandaba hasta el punto establecido. </p>
+        </div>
+    </div>
+    <hr>
+    <div class="seis">
+        <a href="https://yoruneko482.github.io/p6_mondrian/"><div class="img_seis">
+        
+        </div></a>
+        <div class="seis_text">
+            <h4><strong>Neoplasticismo</strong></h4>
+            <p>En esta actividad hemos recreado un cuadro neoplasticista del artista Mondrian usando la herramienta del grid. Dentro de esta vinculamos un pequeño índice a los bocetos de esta actividad. </p>
+        </div>
+    </div>
+    <hr>
+    <div class="siete">
+        <a href="https://yoruneko482.github.io/p7_portfoli/"><div class="img_siete">
+        
+        </div></a>
+        <div class="siete_text">
+            <h4><strong>1r Portfolio</strong></h4>
+            <p>Este fue el 1r portfolio que realizamos. Usando el grid para la estructuración de las diversas actividades, el background-image para el uso de fotografias cómo fondo, el :hoover y @media para los diferentes formatos de pantalla, realizamos este proyecto para establecer un sitio donde poder acceder a todos nuestros trabajs de forma intuitiva e informativa al mismo tiempo que creativa i personificada.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="ocho">
+        <a href="https://yoruneko482.github.io/p8_animaci-i-transici-/"><div class="img_ocho">
+       
+        </div> </a>
+        <div class="ocho_text">
+            <h4><strong>Animación y transición</strong></h4>
+            <p>Una de las últimas prácticas que hemos realizado es la adición de animaciones a nuestras páginas web, el uso de la herramienta transform y @keyframe nos permiten realizar gran diversidad de acciones dinámicas. También practicamos con las diferentes modificaciones para :hoover.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="nueve">
+        <a href="../index.html"><div class="img_nueve">
+       
+        </div></a>
+        <div class="nueve_text">
+            <h4><strong>Portfolio</strong></h4>
+            <p>Finalmente este es el trabajo actual, un portfolio para el cual buscamos referencias de otros trabajos similares ya creados y posteriormente personalizamos esa plantilla para realizar nuestro propio proyecto.</p>
+        </div>
+    </div>
+    <hr class="line_one">
+</main>
+<footer>
+    <div class="container">
+        <nav>
+            <a href="https://github.com/YoruNeko482"><h3><strong>GITHUB</strong></h3></a>    
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
